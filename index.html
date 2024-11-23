@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GPT</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/img/favicon.ico">
+</head>
+<body>
+    <header>
+        My<span class="text-green">GPT</span>
+    </header>
+    <div id="msgContainer" class="container mt-16">
+        <div class="msg">Hi my name is <b>Bob</b>, how can I help you today?</div>
+    </div>
+    <form class="container container-bottom" onsubmit="postChatMessage(); return false;">
+        <input id="chatField" type="text" placeholder="...">
+        <button>send</button>
+    </form>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
